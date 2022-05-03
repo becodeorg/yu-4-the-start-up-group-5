@@ -2,22 +2,29 @@ body {
   margin: 0;
   font-family: Roboto, sans-serif;
 }
+
 body header {
   width: 100%;
 }
+
 body header .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 body header img {
   width: 8%;
   margin-right: 10%;
 }
+
 body header nav {
   height: 40px;
   width: 80%;
   margin-left: 7%;
   padding-top: 4%;
 }
+
 body header nav a {
   text-decoration: none;
   color: black;
@@ -25,21 +32,25 @@ body header nav a {
   padding: 2%;
   font-size: 1.3em;
 }
+
 body header nav a:hover {
-  background-color: rgb(218, 84, 85);
+  background-color: #da5455;
   color: white;
   border-radius: 10%;
 }
+
 body header nav .icons {
   float: right;
   width: 10%;
 }
+
 body header nav .icons img {
   width: 30%;
   padding: 0;
   margin: 0;
   margin-left: 0.5%;
 }
+
 body header h1 {
   color: black;
   padding-top: 16%;
@@ -55,6 +66,7 @@ body header p {
   margin-left: 57%;
   padding-right: 3%;
 }
+
 body header #headerpic {
   background-image: url(../Assets/foodpic.jpeg);
   min-height: 700px;
@@ -62,15 +74,12 @@ body header #headerpic {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-<<<<<<< HEAD
 }
 
-body header #headerpic h3 {
+body header #headerpic h1 {
   color: black;
   padding-top: 16%;
   text-align: right;
-  width: 10%;
-  font-size: larger;
 }
 
 body section {
@@ -83,11 +92,12 @@ body section img {
   width: 45%;
 }
 
+body section h2 {
+  margin-left: 10%;
+}
+
 body section p {
   width: 70%;
   margin-left: 10%;
 }
 /*# sourceMappingURL=menu.css.map */
-=======
-}/*# sourceMappingURL=menu.css.map */
->>>>>>> 64ebb00589dc1f539c22760fe74cccc9659ec0fd
