@@ -1,1 +1,20 @@
-/*# sourceMappingURL=AboutUs.css.map */
+body .offerte {
+  background-color: rgb(93, 182, 190);
+  width: 100%;
+  padding: 20vh;
+}
+body .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+body .row .column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+body .row .column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}/*# sourceMappingURL=AboutUs.css.map */
