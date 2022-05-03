@@ -50,7 +50,6 @@ body{
         width: 40%;
         float: right;
     }
-
     #headerpic{
         background-image: url(../Assets/foodtruck.jpeg);
         min-height: 700px;
@@ -58,7 +57,39 @@ body{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+
     }
+
 }
+    section{
+        background-color: rgb(243,196,180);
+        height: 600px;
+        margin-top:0;
+        padding-top: 2%;
+        h2{
+            margin-top: 15%;
+            color: white;
+            width: 30%;
+            margin-left: auto;
+            margin-right: auto;
+            border-bottom: 1px solid;
+            text-align: center;
+            font-size: 2.4em;
+        }
+        p{
+            width: 75%;
+            padding-top: 2%;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+    footer{
+        padding-top: 1%;
+        background-color: rgb(115,22,40);
+        color: white;
+        ul li{
+            list-style: none;
+        }
+    }
 
 }
