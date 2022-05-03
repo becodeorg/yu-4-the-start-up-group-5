@@ -1,1 +1,17 @@
+body header nav a {
+  text-decoration: none;
+}
+
+body header img {
+  width: 10%;
+}
+
+body header div {
+  background-image: url(../Assets/foodtruck.jpeg);
+  min-height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /*# sourceMappingURL=style.css.map */
