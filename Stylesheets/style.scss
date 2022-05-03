@@ -1,15 +1,34 @@
 body{
+    margin:0;
+    font-family: Roboto, sans-serif;
     header{
-        nav{
-            a{
-                text-decoration: none;
-            }
-
-        }
         img{
             width: 10%;
+            margin-right: 10%;
+            float: left;
         }
-        div{
+        nav{
+            height: 100px;
+            padding-top: 6%;
+            a{
+                text-decoration: none;
+                color: black;
+                margin-left: 2%;
+                font-size: 1.3em;
+                float: left;
+         
+            }
+            .icons{
+                width: 30%; 
+                margin-left: 80%;
+                img{
+                    margin-left: 1%;
+                }
+            }
+        }
+
+
+        #headerpic{
             background-image: url(../Assets/foodtruck.jpeg);
             min-height: 700px;
             background-attachment: fixed;
