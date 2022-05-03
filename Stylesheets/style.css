@@ -3,6 +3,10 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+body header {
+  width: 100%;
+}
+
 body header .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10,14 +14,15 @@ body header .flex {
 }
 
 body header img {
-  width: 10%;
+  width: 8%;
   margin-right: 10%;
 }
 
 body header nav {
-  height: 70px;
-  width: 90%;
-  padding-top: 5%;
+  height: 40px;
+  width: 80%;
+  margin-left: 7%;
+  padding-top: 4%;
 }
 
 body header nav a {
@@ -34,27 +39,26 @@ body header nav a:hover {
 }
 
 body header nav .icons {
-  width: 35%;
-  margin-left: 0%;
   float: right;
+  width: 10%;
 }
 
 body header nav .icons img {
+  width: 30%;
   padding: 0;
   margin: 0;
   margin-left: 0.5%;
 }
 
-body header nav .icons .icons:hover {
-  background-color: none;
-}
-
 body header h1 {
   color: white;
-  padding-top: 20%;
+  padding-top: 16%;
   font-size: 4em;
   text-align: right;
-  margin-right: 4%;
+  margin-right: 8%;
+  border-bottom: 1px solid;
+  width: 40%;
+  float: right;
 }
 
 body header #headerpic {
