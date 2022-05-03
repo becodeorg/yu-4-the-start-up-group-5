@@ -11,3 +11,5 @@ color scheme:   - blauw rgb(93,182,190)
                 - roze rgb(218,84,85)
                 - rood rgb(115,22,40)
                 - zalmroze rgb(243,196,180)
+
+icons: https://www.iconfinder.com/search/icons?family=feather&price=free
