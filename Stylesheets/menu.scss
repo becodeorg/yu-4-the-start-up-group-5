@@ -27,6 +27,8 @@ body{
                 background-color: rgb(218,84,85);
                 color: white;
                 
+                border-radius: 10%;
+                
             }
             .icons{
                 float: right;
@@ -41,24 +43,48 @@ body{
 
     }
     h1{
-        color: white;
+        color: black;
         padding-top: 16%;
         font-size: 4em;
         text-align: right;
         margin-right: 8%;
-        border-bottom: 1px solid ;
-        width: 40%;
-        float: right;
+        width: 100%;
     }
+    p{
+        width: 40%;
+        text-align: right;
+        margin-left: 57%;
+        padding-right: 3%;;
+    }
+
     #headerpic{
-        background-image: url(../Assets/foodtruck.jpeg);
+        background-image: url(../Assets/foodpic.jpeg);
         min-height: 700px;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-
+        h3{
+            color: black;
+            padding-top: 16%;
+            text-align: right;
+            width: 10%;
+            font-size: larger;
+        }
     }
 
-}
+}    
+    section{
+        img{
+            width: 45%;
+        }
+        h2{
+            
+        }
+        p{
+            width: 70%;
+            margin-left: 10%;
+        }
+        display: flex;
+    }
 }
