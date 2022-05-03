@@ -1,65 +1,40 @@
 body {
   font-family: "Roboto", sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 body .getInContact {
-  background-color: #5db6be;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  background-color: rgb(93, 182, 190);
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-around;
   padding-top: 3vh;
   padding-bottom: 3vh;
 }
-
 body .getInContact .knowMore {
   width: 40vw;
 }
-
 body .getInContact .contactInfoBlock {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   width: 40vw;
 }
-
 body .getInContact .contactInfoBlock .contactInfo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
-
 body .getInContact .contactInfoBlock .contactInfo .icons {
   width: 5vw;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   margin-right: 15px;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
 }
-
+body .mapContainer {
+  width: 100%;
+  height: 40vh;
+}
 body form {
   height: 500px;
   padding-top: 15%;
@@ -70,17 +45,13 @@ body form {
   font-size: 1.1em;
   color: white;
 }
-
 body form label {
   width: 100%;
   clear: both;
 }
-
 body form input {
   width: 100%;
 }
-
 body form .text {
   width: 100%;
-}
-/*# sourceMappingURL=Contact.css.map */
+}/*# sourceMappingURL=Contact.css.map */
