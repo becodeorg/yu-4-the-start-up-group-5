@@ -6,30 +6,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Stylesheets/style.css">
     <link rel="stylesheet" href="Stylesheets/Contact.css">
 </head>
 
 <body>
+    <header>
+        <div class="flex">
+            <img src="Assets/logovoornu.jpg" alt="logo" class="logo">
+            <nav>
+                <!--icon of logo voor home hier-->
+                <a href="AboutUs.html">About us</a>
+                <a href ="Menu.html">Menu</a>
+                <a href="BookUs.html">Book Us</a>
+                <a href="Contact.html">Contact</a>
+                <div class="icons">
+                    <a href="https://www.facebook.com" target="_blank"><img src="Assets/facebook.png" alt="facebook icon"></a>
+                    <a href="https://www.instagram.com" target="_blank"><img src="Assets/instagram.png" alt="instagram icon"></a>
+                </div>
+            </nav>
+        </div>
+        <div id="headerpic">
+            <h1>Welcome to Paradise on Weels</h1>
+        </div>
+    </header>
+
     <!-- To do: add header/nav bar from index.html-->
     <div class="getInContact">
         <div class="knowMore">
-            <h3>You want to know more?</h3>
+            <h2>You want to know more?</h2>
             <p>You have a question? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni aut veniam odio
             laudantium dolores accusamus quia ut accusantium fugit nostrum!</p>
         </div>
-        <div class="contactInfo">
-            <h3>Contact info</h3>
-            <div class="icons"><img src="Assets/phone_call_icon.png" alt="call icon"></div>
-            <p>+35 45258456</p>
-
-            <p>+32 53434331</p>
-            <p>info@streetfood.com</p>
-            <p>Leon Dumortierstraat 67, 2540 Hove</p>
+        <div class="contactInfoBlock">
+            <h2>Contact info</h2>
+            <div class="contactInfo">
+                <img class="icons" src="Assets/phone_call_icon.png" alt="call phone">
+                <p>+35 45258456</p>
+            </div>
+            <div class="contactInfo">
+                <img class="icons" src="Assets/smartphone_icon.png" alt="call mobile">
+                <p>+32 53434331</p>
+            </div>
+            <div class="contactInfo">
+                <img class="icons" src="Assets/at_sign_icon.png" alt="mail">
+                <p>info@streetfood.com</p>
+            </div>
+            <div class="contactInfo">
+                <img class="icons" src="Assets/map_pin_icon.png" alt="adress">
+                <p>Leon Dumortierstraat 67, 2540 Hove</p>
+            </div>
         </div>
-        
-
+    </div>
+    <div>
+        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+            <fieldset id="fs-frm-inputs">
+              <label for="full-name">Full Name</label>
+              <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+              <label for="email-address">Email Address</label>
+              <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+              <label for="message">Message</label>
+              <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+              <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            </fieldset>
+            <input type="submit" value="Submit">
+          </form>
     </div>
 
     <!-- To do: add footer from index.html-->
