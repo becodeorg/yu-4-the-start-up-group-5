@@ -2,6 +2,9 @@
 Foodtruck Vegan/ Sea food ! 
 It is a food truck that is for rent on events and festivals. We have a vegan option and more sea foods. 
 
+Book us: is more asking how much everything is gonna be. 
+Contact is my information.
+
 Roboto 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
