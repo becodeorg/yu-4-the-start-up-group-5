@@ -10,25 +10,32 @@ body{
         justify-content: space-around;
         padding-top: 3vh;
         padding-bottom: 3vh;
+        
         .knowMore{
-            margin-left: 50px;
+            
             width: 40vw;
         }
         .contactInfoBlock{
             display: flex;
             flex-direction: column;
-            margin-left: 50px;
+           
             width: 40vw;
             .contactInfo{
                 display: flex;
                 flex-direction: row;
+                
                 .icons{
-                    width: 2vw;
-                    height: auto;
+                    width: 5vw;
+                    height:fit-content;
                     margin-right: 15px;
+                    align-self: center;
+                    
                 }
             }
-            
         }
+    }
+    form{
+        display: flex;
+        flex-direction: column;
     }
 }

@@ -12,13 +12,11 @@ body .getInContact {
   padding-bottom: 3vh;
 }
 body .getInContact .knowMore {
-  margin-left: 50px;
   width: 40vw;
 }
 body .getInContact .contactInfoBlock {
   display: flex;
   flex-direction: column;
-  margin-left: 50px;
   width: 40vw;
 }
 body .getInContact .contactInfoBlock .contactInfo {
@@ -26,7 +24,14 @@ body .getInContact .contactInfoBlock .contactInfo {
   flex-direction: row;
 }
 body .getInContact .contactInfoBlock .contactInfo .icons {
-  width: 2vw;
-  height: auto;
+  width: 5vw;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   margin-right: 15px;
+  align-self: center;
+}
+body form {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=Contact.css.map */
