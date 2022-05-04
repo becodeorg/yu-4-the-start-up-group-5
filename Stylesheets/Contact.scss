@@ -168,4 +168,60 @@ header{
             }   
         }
     }
+
+    @media screen and (max-width:800px) {
+        #contact{
+            .knowMore{
+                height: 600px;
+                h2{
+                    padding-top: 40%;
+                }
+                p{
+                    width: 100%;
+                }
+            }
+            
+            #question{
+                display: block;
+                .mapContainer{
+                    width: 100%;
+                    padding: 0;
+                    margin: 0;
+                    iframe{
+                        margin-left: auto;
+                        margin-right: auto;
+                        width: 100%;
+                    }
+                }
+                .contactInfo{
+                    
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                form{
+                    width:80%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    #button{
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:600px) {
+        #question{
+            .mapContainer{
+                width: 100%;
+                margin: 0;
+                padding:0;
+            }
+           form{
+               #button{
+                   width: 100%;
+               }
+           } 
+        }
+    }
 }
