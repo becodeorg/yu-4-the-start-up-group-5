@@ -5,14 +5,15 @@ body{
 header{
     #headerpic{
         background-image: url(../Assets/foodtruck2.jpg);
-        min-height: 700px;
+        min-height: 600px;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
     h1{
-        color: white;
+        color: rgb(243,196,180);
+        background-color: rgba(255, 255, 255, 0);
         text-transform: uppercase;
         text-align: center;
         margin-left: 0;
@@ -23,75 +24,115 @@ header{
     }
 }
   
-    .getInContact{
-        background-color: rgb(93,182,190);
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        padding-top: 3vh;
-        padding-bottom: 3vh;
-        
-        .knowMore{
-            
-            width: 40vw;
-        }
-        .contactInfoBlock{
-            display: flex;
-            flex-direction: column;
-           
-            width: 40vw;
-            .contactInfo{
-                display: flex;
-                flex-direction: row;
-                
-                .icons{
-                    width: 4vw;
-                    height:fit-content;
-                    margin-right: 15px;
-                    align-self: center;
-                    
-                }
-            }
-        }
-    }
-    .mapContainer{
-        width: 100%;
-        height: 40vh;
-    }
+
+
     section{
-        height: 900px;
-        form{
-            height: 500px;
-            padding-top: 15%;
-            width: 40%;
+        background-color: white;
+        height: 950px;
+        .knowMore{
+            h2{
+                color: black;
+                width: 100%;
+                padding-left: 4%;
+                text-align: left;
+            }
+            p{
+                text-align: left;
+                margin-left: 4%;
+            }
+            width: 50%;
+            text-align: left;
             margin-left: auto;
             margin-right: auto;
-            display: block;
+        }
+        .flex{
+            display: flex;
+        }
+        .mapContainer{
+            margin-left: 4%;
+            iframe{
+                width: 500px;
+                height: 500px;
+            }
+        
+        }
+        .getInContact{
+            flex-direction: row;
+            justify-content: space-around;
+            
+            
+            .contactInfoBlock{
+                margin-left: 26%;
+                color: black;
+                width: 40%;
+                h2{
+                    color: black;
+                    width: 100%;
+                }
+                .contactInfo{
+                    display: flex;
+                    flex-direction: row;
+                    .icons{
+                        width: 3%;
+                        height:fit-content;
+                        margin-right: 15px;
+                        
+                    }
+                }
+            }
+        }       
+        form{
+            height: 500px;
+            background-color: white;
+            padding-left: 5%;
+            width: 40%;
             font-size: 1.1em;
             color: black;
-            fieldset{
-                background-color: whitesmoke;
+            box-shadow: 2px 2px 2px gray;
+
+        h2{
+            border-bottom: none;
+            text-align: left;
+            width: 100%;
+            color: black;
+            margin-bottom: 2%;
+        }
+        fieldset{
+            border-radius: 4px;
+            border: none;
+
             }
-            label{
-                margin-top: 2%;
-                width: 100%;
-                clear: both;
+        label{
+            padding-top: 4%;
+            width: 100%;
+            clear: both;
             }
-            input{
+        input{
+            border: none;
+            margin-bottom: 4%;
+                border-radius: 2%;
                 margin-top: 2%;
                 width: 100%;
                 height: 40px;
+                border-bottom: 1px solid;   
+
             }
             textarea{
-            width: 100%;
-            height: 100px;   
+                margin-top: 2%;
+                border:none;
+                width: 100%;
+                height: 100px;
+                border-bottom: 1px solid;   
             }
             #button{
                 font-size: large;
+                width: 20%;
                 height: 40px;
                 font-family: Roboto;
                 color: white;
                 border: none;
+                margin-top: 2%;
+                border-radius: 4px;
                 background-color: rgb(115,22,40);
             }   
         }

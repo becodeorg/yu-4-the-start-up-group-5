@@ -11,7 +11,7 @@ body {
 
 body header #headerpic {
   background-image: url(../Assets/foodtruck2.jpg);
-  min-height: 700px;
+  min-height: 600px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -19,7 +19,8 @@ body header #headerpic {
 }
 
 body header h1 {
-  color: white;
+  color: #f3c4b4;
+  background-color: rgba(255, 255, 255, 0);
   text-transform: uppercase;
   text-align: center;
   margin-left: 0;
@@ -29,37 +30,66 @@ body header h1 {
   border-bottom: 0;
 }
 
-body .getInContact {
-  background-color: #5db6be;
+body section {
+  background-color: white;
+  height: 950px;
+}
+
+body section .knowMore {
+  width: 50%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body section .knowMore h2 {
+  color: black;
+  width: 100%;
+  padding-left: 4%;
+  text-align: left;
+}
+
+body section .knowMore p {
+  text-align: left;
+  margin-left: 4%;
+}
+
+body section .flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+body section .mapContainer {
+  margin-left: 4%;
+}
+
+body section .mapContainer iframe {
+  width: 500px;
+  height: 500px;
+}
+
+body section .getInContact {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding-top: 3vh;
-  padding-bottom: 3vh;
 }
 
-body .getInContact .knowMore {
-  width: 40vw;
+body section .getInContact .contactInfoBlock {
+  margin-left: 26%;
+  color: black;
+  width: 40%;
 }
 
-body .getInContact .contactInfoBlock {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 40vw;
+body section .getInContact .contactInfoBlock h2 {
+  color: black;
+  width: 100%;
 }
 
-body .getInContact .contactInfoBlock .contactInfo {
+body section .getInContact .contactInfoBlock .contactInfo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -69,64 +99,71 @@ body .getInContact .contactInfoBlock .contactInfo {
           flex-direction: row;
 }
 
-body .getInContact .contactInfoBlock .contactInfo .icons {
-  width: 4vw;
+body section .getInContact .contactInfoBlock .contactInfo .icons {
+  width: 3%;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   margin-right: 15px;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-
-body .mapContainer {
-  width: 100%;
-  height: 40vh;
-}
-
-body section {
-  height: 900px;
 }
 
 body section form {
   height: 500px;
-  padding-top: 15%;
+  background-color: white;
+  padding-left: 5%;
   width: 40%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
   font-size: 1.1em;
   color: black;
+  -webkit-box-shadow: 2px 2px 2px gray;
+          box-shadow: 2px 2px 2px gray;
+}
+
+body section form h2 {
+  border-bottom: none;
+  text-align: left;
+  width: 100%;
+  color: black;
+  margin-bottom: 2%;
 }
 
 body section form fieldset {
-  background-color: whitesmoke;
+  border-radius: 4px;
+  border: none;
 }
 
 body section form label {
-  margin-top: 2%;
+  padding-top: 4%;
   width: 100%;
   clear: both;
 }
 
 body section form input {
+  border: none;
+  margin-bottom: 4%;
+  border-radius: 2%;
   margin-top: 2%;
   width: 100%;
   height: 40px;
+  border-bottom: 1px solid;
 }
 
 body section form textarea {
+  margin-top: 2%;
+  border: none;
   width: 100%;
   height: 100px;
+  border-bottom: 1px solid;
 }
 
 body section form #button {
   font-size: large;
+  width: 20%;
   height: 40px;
   font-family: Roboto;
   color: white;
   border: none;
+  margin-top: 2%;
+  border-radius: 4px;
   background-color: #731628;
 }
 /*# sourceMappingURL=Contact.css.map */
