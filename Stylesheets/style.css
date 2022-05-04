@@ -1,5 +1,4 @@
 body {
-  scroll-behavior: smooth;
   margin: 0;
   font-family: Roboto, sans-serif;
 }
@@ -12,10 +11,16 @@ body header .flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: fixed;
+  background-color: white;
+  margin-top: 0;
+  padding-top: 2%;
+  height: 100px;
 }
 
 body header img {
-  width: 35%;
+  width: 24%;
+  padding-left: 2%;
   margin-right: 10%;
 }
 
@@ -63,7 +68,7 @@ body header h1 {
 }
 
 body header #headerpic {
-  padding-top: 15%;
+  padding-top: 20%;
   background-image: url(../Assets/foodtruck.jpeg);
   min-height: 500px;
   background-attachment: fixed;

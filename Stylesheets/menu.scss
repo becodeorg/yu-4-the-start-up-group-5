@@ -22,21 +22,49 @@ body{
             width: 40%;
             text-align: right;
             margin-left: 57%;
-            padding-right: 3%;;
+            padding-right: 3%;
+            font-weight: 300;
         }
     
 }  
     section{
-        img{
-            width: 45%;
-        }
+        display: grid;
+        padding-bottom: 5%;
+        height: 1000px;    
         h2{
-        margin-left: 10%;       
+            display: inline;
+            width: 100%;
+            border: none;
         }
-        p{
-            width: 70%;
-            margin-left: 10%;
+        .grid{
+            display: inline-grid;
+            grid-template-columns: auto auto auto auto;
+            column-gap: 50px;
+
         }
-        display: flex;
+        .card{
+            margin-left: 4%;
+            margin-top: auto;
+            margin-bottom: auto;
+            background-color: white;
+            padding-bottom: 1%;
+            height: 700px;
+            img{
+                width: 100%;
+            }
+            h2{
+                text-align: left;
+                padding-left: 10%;
+                font-size: 1.7em;
+                width: 100%;
+                border: none;
+                color: black;
+            }
+            p{
+                text-align: left;
+                font-weight: 300;
+            }
+;
+        }
     }
 }
