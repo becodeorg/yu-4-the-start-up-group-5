@@ -46,7 +46,7 @@ body header .flex {
   height: 100px;
 }
 
-body header .logo {
+body header .flex .logo {
   width: 20%;
   padding-left: 4%;
   margin-right: 10%;
@@ -69,7 +69,7 @@ body header nav a {
 body header nav a:hover {
   background-color: #da5455;
   color: white;
-  border-radius: 10%;
+  border-radius: 2px;
 }
 
 body header nav .icons {
@@ -81,18 +81,6 @@ body header nav .icons img {
   width: 30%;
   padding: 0;
   margin: 0;
-  margin-left: 0.5%;
-}
-
-body header h1 {
-  color: white;
-  font-weight: 600;
-  background-color: rgba(219, 214, 212, 0.569);
-  font-size: 4em;
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  width: 40%;
 }
 
 body header #headerpic {
@@ -105,6 +93,17 @@ body header #headerpic {
   background-size: cover;
 }
 
+body header #headerpic h1 {
+  color: white;
+  font-weight: 600;
+  background-color: rgba(219, 214, 212, 0.569);
+  font-size: 4em;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 40%;
+}
+
 body header #headerpic img {
   width: 5%;
   margin-left: auto;
@@ -112,28 +111,87 @@ body header #headerpic img {
   display: block;
 }
 
-body section {
+body section, body #information {
   background-color: #f3c4b4;
   height: 600px;
   margin-top: 0;
   padding-top: 2%;
 }
 
-body section h2 {
+body section h2, body #information h2 {
   margin-top: 15%;
   color: white;
   width: 30%;
   margin-left: auto;
   margin-right: auto;
-  border-bottom: 1px solid;
   text-align: center;
   font-size: 2.4em;
 }
 
-body section p {
+body section p, body #information p {
   width: 75%;
   padding-top: 2%;
   margin: 0 auto;
   text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  body header .flex {
+    height: 250px;
+    display: block;
+  }
+  body header .flex .logo {
+    width: 21%;
+    padding: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body header .flex nav {
+    width: 60%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body header .flex .icons {
+    float: none;
+    padding-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body header .flex .icons img {
+    width: 30%;
+  }
+  body header #headerpic {
+    height: 600px;
+  }
+  body header #headerpic h1 {
+    margin-top: 25%;
+    font-size: 1.9em;
+  }
+  body #information {
+    padding-top: 20%;
+  }
+  body #information h2 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body header .flex nav {
+    width: 70%;
+    padding-top: 4%;
+  }
+  body header .flex .icons {
+    margin-top: 2%;
+    width: 21%;
+  }
+  body header #headerpic h1 {
+    margin-top: 40%;
+    width: 80%;
+  }
+  body #information h2 {
+    padding-top: 25%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

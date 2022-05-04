@@ -10,12 +10,13 @@ body{
                 margin-top: 0;            
                 padding-top: 2%;
                 height: 100px;
+                .logo{
+                    width: 20%;
+                    padding-left: 4%;
+                    margin-right: 10%;
+                }
             }
-            .logo{
-                width: 20%;
-                padding-left: 4%;
-                margin-right: 10%;
-            }
+            
             nav{
                 width: 80%;
                 margin-left: 7%;
@@ -32,7 +33,7 @@ body{
                 a:hover{
                     background-color: rgb(218,84,85);
                     color: white;
-                    border-radius: 10%;
+                    border-radius: 2px;
                     
                 }
                 .icons{
@@ -42,21 +43,11 @@ body{
                         width: 30%;
                         padding: 0;
                         margin: 0;
-                        margin-left: 0.5%;
                     }
             }
 
         }
-        h1{
-            color: white;
-            font-weight: 600;
-            background-color: rgba(219, 214, 212, 0.569);
-            font-size: 4em;
-            text-align: center;
-            margin-right: auto;
-            margin-left: auto;
-            width: 40%;
-        }
+        
         #headerpic{
             padding-top: 20%;
 
@@ -66,6 +57,16 @@ body{
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
+            h1{
+                color: white;
+                font-weight: 600;
+                background-color: rgba(219, 214, 212, 0.569);
+                font-size: 4em;
+                text-align: center;
+                margin-right: auto;
+                margin-left: auto;
+                width: 40%;
+            }
             img{
                 width: 5%;
                 margin-left: auto;
@@ -75,7 +76,7 @@ body{
         }
 
     }
-        section{
+        section, #information{
             background-color: rgb(243,196,180);
             height: 600px;
             margin-top:0;
@@ -86,7 +87,6 @@ body{
                 width: 30%;
                 margin-left: auto;
                 margin-right: auto;
-                border-bottom: 1px solid;
                 text-align: center;
                 font-size: 2.4em;
             }
@@ -97,6 +97,7 @@ body{
                 text-align: center;
             }
         }
+
         /*footer{
             padding-top: 1%;
             color: rgba(115, 22, 41, 0.707);
@@ -125,5 +126,74 @@ body{
                 color: black;
             }
         }*/
+        @media screen and (max-width: 800px) {
+            header{ 
+                .flex{
+                    height: 250px;
+                    display: block;
+                    .logo{
+                        width: 21%;
+                        padding: 0;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                    nav{
+                        width: 60%;
+                        padding: 0;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                    .icons{
+                        float: none;
+                        padding-top: 2%;
+                        margin-left: auto;
+                        margin-right: auto;
+                        img{
+                            width: 30%;
+                        }
+                    }
 
+                }
+                #headerpic{
+                    height: 600px;
+                    h1{
+                        margin-top: 25%;
+                        font-size: 1.9em;
+                    }
+                }
+
+        }
+        #information{
+         padding-top: 20%; 
+          h2{
+              width:100%;
+          }          
+        }
+     }
+     @media screen and (max-width: 600px) {
+       header{
+           .flex{
+               nav{
+                   width: 70%;
+                   padding-top: 4%;
+               }
+               .icons{
+                   margin-top: 2%;
+                   width: 21%;
+               }
+           }
+           #headerpic{
+               h1{
+                   margin-top: 40%;
+                   width: 80%;
+               }
+           }
+       }
+       #information{
+        h2{
+            padding-top: 25%;
+        }
+       }
     }
+}
