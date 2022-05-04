@@ -3,9 +3,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-<<<<<<< HEAD
-=======
-
 body header #headerpic {
   background-image: url(../Assets/foodtruck2.jpg);
   min-height: 700px;
@@ -14,7 +11,6 @@ body header #headerpic {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 body header h1 {
   color: white;
   text-transform: uppercase;
@@ -25,8 +21,6 @@ body header h1 {
   width: 100%;
   border-bottom: 0;
 }
-
->>>>>>> 7843d4813510a9ce00704ae60847bccc1c426555
 body .getInContact {
   background-color: rgb(93, 182, 190);
   display: flex;
@@ -59,16 +53,10 @@ body .mapContainer {
   width: 100%;
   height: 40vh;
 }
-<<<<<<< HEAD
-body form {
-=======
-
 body section {
   height: 900px;
 }
-
 body section form {
->>>>>>> 7843d4813510a9ce00704ae60847bccc1c426555
   height: 500px;
   padding-top: 15%;
   width: 40%;
@@ -78,48 +66,24 @@ body section form {
   font-size: 1.1em;
   color: black;
 }
-<<<<<<< HEAD
-body form fieldset {
-  background-color: whitesmoke;
-}
-body form label {
-=======
-
 body section form fieldset {
   background-color: whitesmoke;
 }
-
 body section form label {
->>>>>>> 7843d4813510a9ce00704ae60847bccc1c426555
   margin-top: 2%;
   width: 100%;
   clear: both;
 }
-<<<<<<< HEAD
-body form input {
-=======
-
 body section form input {
->>>>>>> 7843d4813510a9ce00704ae60847bccc1c426555
   margin-top: 2%;
   width: 100%;
   height: 40px;
 }
-<<<<<<< HEAD
-body form textarea {
-  width: 100%;
-  height: 100px;
-}
-body form #button {
-=======
-
 body section form textarea {
   width: 100%;
   height: 100px;
 }
-
 body section form #button {
->>>>>>> 7843d4813510a9ce00704ae60847bccc1c426555
   font-size: large;
   height: 40px;
   font-family: Roboto;
