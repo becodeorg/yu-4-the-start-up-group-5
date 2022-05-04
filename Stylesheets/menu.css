@@ -1,102 +1,48 @@
-body {
-  margin: 0;
-  font-family: Roboto, sans-serif;
+html {
+  scroll-behavior: smooth;
 }
 
-body header {
-  width: 100%;
+html body header #headerpic {
+  background-image: url(../Assets/foodpic.jpeg);
 }
 
-body header .flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-body header img {
-  width: 8%;
-  margin-right: 10%;
-}
-
-body header nav {
-  height: 40px;
-  width: 80%;
-  margin-left: 7%;
-  padding-top: 4%;
-}
-
-body header nav a {
-  text-decoration: none;
-  color: black;
-  margin-left: 1%;
-  padding: 2%;
-  font-size: 1.3em;
-}
-
-body header nav a:hover {
-  background-color: #da5455;
+html body header #headerpic h1 {
+  background-color: rgba(219, 214, 212, 0);
   color: white;
-  border-radius: 10%;
-}
-
-body header nav .icons {
-  float: right;
-  width: 10%;
-}
-
-body header nav .icons img {
-  width: 30%;
-  padding: 0;
-  margin: 0;
-  margin-left: 0.5%;
-}
-
-body header h1 {
-  color: black;
-  padding-top: 16%;
-  font-size: 4em;
+  width: 90%;
+  margin-right: 3%;
   text-align: right;
-  margin-right: 8%;
-  width: 100%;
 }
 
-body header p {
+html body header #headerpic .arrow {
+  display: inline;
+  float: right;
+  margin-right: 4%;
+  margin-left: none;
+}
+
+html body header p {
   width: 40%;
   text-align: right;
   margin-left: 57%;
   padding-right: 3%;
 }
 
-body header #headerpic {
-  background-image: url(../Assets/foodpic.jpeg);
-  min-height: 700px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-body header #headerpic h1 {
-  color: black;
-  padding-top: 16%;
-  text-align: right;
-}
-
-body section {
+html body section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-body section img {
+html body section img {
   width: 45%;
 }
 
-body section h2 {
+html body section h2 {
   margin-left: 10%;
 }
 
-body section p {
+html body section p {
   width: 70%;
   margin-left: 10%;
 }

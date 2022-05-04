@@ -1,77 +1,33 @@
+html{
+    scroll-behavior: smooth;
 body{
-    margin:0;
-    font-family: Roboto, sans-serif;
     header{
-        width: 100%;
-        .flex{
-            display: flex;
-        }
-        img{
-            width: 8%;
-            margin-right: 10%;
-        }
-        nav{
-            height: 40px;
-            width: 80%;
-            margin-left: 7%;
-            padding-top: 4%;
-            a{
-                text-decoration: none;
-                color: black;
-                margin-left: 1%;
-                padding: 2%;
-                font-size: 1.3em;
-
-            }
-            a:hover{
-                background-color: rgb(218,84,85);
+        #headerpic{
+            background-image: url(../Assets/foodpic.jpeg);
+            h1{
+                background-color: rgba(219, 214, 212, 0);
                 color: white;
-                
-                border-radius: 10%;
-                
+                width: 90%;
+                margin-right: 3%;
+                text-align: right;
             }
-            .icons{
-                float: right;
-                width: 10%;
-                img{
-                    width: 30%;
-                    padding: 0;
-                    margin: 0;
-                    margin-left: 0.5%;
-                }
+            .arrow{
+            display: inline;
+            float: right;
+            margin-right: 4%;
+            margin-left: none;
+            }
+        
         }
-
-    }
-    h1{
-        color: black;
-        padding-top: 16%;
-        font-size: 4em;
-        text-align: right;
-        margin-right: 8%;
-        width: 100%;
-    }
-    p{
-        width: 40%;
-        text-align: right;
-        margin-left: 57%;
-        padding-right: 3%;;
-    }
-
-    #headerpic{
-        background-image: url(../Assets/foodpic.jpeg);
-        min-height: 700px;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        h1{
-            color: black;
-            padding-top: 16%;
+    
+        p{
+            width: 40%;
             text-align: right;
+            margin-left: 57%;
+            padding-right: 3%;;
         }
-    }
-
-}    
+    
+}  
     section{
         img{
             width: 45%;
@@ -85,4 +41,5 @@ body{
         }
         display: flex;
     }
+}
 }

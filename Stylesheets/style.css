@@ -1,30 +1,34 @@
-body {
+html {
+  scroll-behavior: smooth;
+}
+
+html body {
   margin: 0;
   font-family: Roboto, sans-serif;
 }
 
-body header {
+html body header {
   width: 100%;
 }
 
-body header .flex {
+html body header .flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-body header img {
+html body header img {
   width: 35%;
   margin-right: 10%;
 }
 
-body header nav {
+html body header nav {
   width: 80%;
   margin-left: 7%;
   padding-top: 4%;
 }
 
-body header nav a {
+html body header nav a {
   text-decoration: none;
   color: black;
   margin-left: 1%;
@@ -32,50 +36,60 @@ body header nav a {
   font-size: 1.3em;
 }
 
-body header nav a:hover {
+html body header nav a:hover {
   background-color: #da5455;
   color: white;
   border-radius: 10%;
 }
 
-body header nav .icons {
+html body header nav .icons {
   float: right;
   width: 10%;
 }
 
-body header nav .icons img {
+html body header nav .icons img {
   width: 30%;
   padding: 0;
   margin: 0;
   margin-left: 0.5%;
 }
 
-body header h1 {
+html body header h1 {
   color: white;
-  padding-top: 16%;
+  font-weight: 600;
+  background-color: rgba(219, 214, 212, 0.569);
   font-size: 4em;
-  text-align: left;
-  margin-right: 8%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
   width: 40%;
 }
 
-body header #headerpic {
+html body header #headerpic {
+  padding-top: 15%;
   background-image: url(../Assets/foodtruck.jpeg);
-  min-height: 700px;
+  min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-body section {
+html body header #headerpic img {
+  width: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+html body section {
   background-color: #f3c4b4;
   height: 600px;
   margin-top: 0;
   padding-top: 2%;
 }
 
-body section h2 {
+html body section h2 {
   margin-top: 15%;
   color: white;
   width: 30%;
@@ -86,42 +100,42 @@ body section h2 {
   font-size: 2.4em;
 }
 
-body section p {
+html body section p {
   width: 75%;
   padding-top: 2%;
   margin: 0 auto;
   text-align: center;
 }
 
-body footer {
+html body footer {
   padding-top: 1%;
   color: rgba(115, 22, 41, 0.707);
   background-color: white;
 }
 
-body footer ul {
+html body footer ul {
   margin-left: auto;
   margin-right: auto;
   width: 55%;
 }
 
-body footer ul li {
+html body footer ul li {
   list-style: none;
   margin-left: 10%;
   display: inline;
 }
 
-body footer div {
+html body footer div {
   margin-left: auto;
   margin-right: auto;
-  width: 15%;
+  width: 14%;
 }
 
-body footer div img {
+html body footer div img {
   width: 20%;
 }
 
-body footer p {
+html body footer p {
   text-align: center;
   color: black;
 }
