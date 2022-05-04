@@ -10,11 +10,8 @@ body header #headerpic h1 {
   text-align: right;
 }
 
-body header #headerpic .arrow {
-  display: inline;
-  float: right;
-  margin-right: 4%;
-  margin-left: none;
+body header #headerpic img {
+  margin-left: 90%;
 }
 
 body header p {
@@ -28,12 +25,16 @@ body header p {
 body section {
   display: -ms-grid;
   display: grid;
+  padding-top: 10%;
   padding-bottom: 5%;
-  height: 1000px;
+  height: 800px;
 }
 
 body section h2 {
+  margin-top: 0;
+  margin-bottom: 2%;
   display: inline;
+  padding-bottom: 0;
   width: 100%;
   border: none;
 }
@@ -43,17 +44,19 @@ body section .grid {
   display: inline-grid;
   -ms-grid-columns: auto auto auto auto;
       grid-template-columns: auto auto auto auto;
-  -webkit-column-gap: 50px;
-          column-gap: 50px;
+  -webkit-column-gap: 40px;
+          column-gap: 40px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2%;
 }
 
 body section .card {
-  margin-left: 4%;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin-top: 0%;
   background-color: white;
-  padding-bottom: 1%;
   height: 700px;
+  width: 90%;
 }
 
 body section .card img {
@@ -63,7 +66,7 @@ body section .card img {
 body section .card h2 {
   text-align: left;
   padding-left: 10%;
-  font-size: 1.7em;
+  font-size: 1.4em;
   width: 100%;
   border: none;
   color: black;
@@ -72,5 +75,54 @@ body section .card h2 {
 body section .card p {
   text-align: left;
   font-weight: 300;
+}
+
+@media screen and (max-width: 800px) {
+  body section {
+    height: 1500px;
+    padding-top: 20%;
+  }
+  body section h2 {
+    padding-top: 18%;
+  }
+  body section .grid {
+    width: 95%;
+    margin-left: 2%;
+    margin-right: 2%;
+    -webkit-column-gap: 20px;
+            column-gap: 20px;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+  body section .grid .card {
+    height: 650px;
+    padding-bottom: 2%;
+    margin-top: 2%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body header #headerpic h1 {
+    color: black;
+    width: 100%;
+    text-align: center;
+  }
+  body header #headerpic p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body header #headerpic img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body section h2 {
+    padding-top: 28%;
+  }
+  body section .grid {
+    margin-left: 2%;
+    margin-right: 2%;
+    -webkit-column-gap: 10px;
+            column-gap: 10px;
+  }
 }
 /*# sourceMappingURL=menu.css.map */

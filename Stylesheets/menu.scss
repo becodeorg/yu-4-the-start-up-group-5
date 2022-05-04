@@ -9,11 +9,8 @@ body{
                 margin-right: 3%;
                 text-align: right;
             }
-            .arrow{
-            display: inline;
-            float: right;
-            margin-right: 4%;
-            margin-left: none;
+            img{
+                margin-left: 90%;
             }
         
         }
@@ -29,33 +26,41 @@ body{
 }  
     section{
         display: grid;
+        padding-top: 10%;
         padding-bottom: 5%;
-        height: 1000px;    
+        height: 800px;    
         h2{
+            margin-top: 0;
+            margin-bottom: 2%;
             display: inline;
+            padding-bottom: 0;
+
             width: 100%;
             border: none;
         }
         .grid{
             display: inline-grid;
             grid-template-columns: auto auto auto auto;
-            column-gap: 50px;
+            column-gap: 40px;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 2%;
 
         }
         .card{
-            margin-left: 4%;
-            margin-top: auto;
-            margin-bottom: auto;
+            margin-top: 0%;
             background-color: white;
-            padding-bottom: 1%;
             height: 700px;
+            width: 90%;
+            
             img{
                 width: 100%;
             }
             h2{
                 text-align: left;
                 padding-left: 10%;
-                font-size: 1.7em;
+                font-size: 1.4em;
                 width: 100%;
                 border: none;
                 color: black;
@@ -66,5 +71,56 @@ body{
             }
 ;
         }
+    }
+    @media screen and (max-width:800px) {
+        section{
+            height: 1500px;
+            padding-top: 20%;
+            h2{
+                padding-top: 18%;
+            }
+            .grid{
+                width: 95%;
+                margin-left: 2%;
+                margin-right: 2%;
+                column-gap: 20px;
+                grid-template-columns: auto auto;
+            .card{
+                height: 650px;
+                padding-bottom: 2%;
+                margin-top: 2%;
+            }
+            }
+        }
+    }
+    @media screen and (max-width:600px) {
+    header{
+        #headerpic{
+            h1{
+                color:black;
+                width: 100%;
+                text-align: center;
+            }
+            p{
+                margin-left: auto;
+                margin-right: auto;
+            }
+            img{
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        }  
+        section{
+            h2{
+                padding-top:28%;
+            }
+            .grid{
+                margin-left: 2%;
+                margin-right: 2%;
+                column-gap: 10px;
+
+            }
+        }      
     }
 }
