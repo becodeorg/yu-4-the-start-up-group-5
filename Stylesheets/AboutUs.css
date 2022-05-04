@@ -1,20 +1,33 @@
+body .logo {
+  width: 10%;
+}
+
 body .offerte {
-  background-color: rgb(93, 182, 190);
+  background-color: #5db6be;
   width: 100%;
   padding: 20vh;
 }
+
 body .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding: 0 4px;
 }
+
 body .row .column {
-  flex: 25%;
+  -webkit-box-flex: 25%;
+      -ms-flex: 25%;
+          flex: 25%;
   max-width: 25%;
   padding: 0 4px;
 }
+
 body .row .column img {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
-}/*# sourceMappingURL=AboutUs.css.map */
+}
+/*# sourceMappingURL=AboutUs.css.map */

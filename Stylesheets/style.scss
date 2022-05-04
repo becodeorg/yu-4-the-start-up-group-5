@@ -7,11 +7,10 @@ body{
             display: flex;
         }
         img{
-            width: 8%;
+            width: 35%;
             margin-right: 10%;
         }
         nav{
-            height: 40px;
             width: 80%;
             margin-left: 7%;
             padding-top: 4%;
@@ -45,11 +44,9 @@ body{
         color: white;
         padding-top: 16%;
         font-size: 4em;
-        text-align: right;
+        text-align: left;
         margin-right: 8%;
-        border-bottom: 1px solid ;
         width: 40%;
-        float: right;
     }
     #headerpic{
         background-image: url(../Assets/foodtruck.jpeg);
@@ -58,7 +55,6 @@ body{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-
     }
 
 }
