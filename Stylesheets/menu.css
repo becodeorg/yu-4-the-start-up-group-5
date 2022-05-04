@@ -22,24 +22,55 @@ body header p {
   text-align: right;
   margin-left: 57%;
   padding-right: 3%;
+  font-weight: 300;
 }
 
 body section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-body section img {
-  width: 45%;
+  display: -ms-grid;
+  display: grid;
+  padding-bottom: 5%;
+  height: 1000px;
 }
 
 body section h2 {
-  margin-left: 10%;
+  display: inline;
+  width: 100%;
+  border: none;
 }
 
-body section p {
-  width: 70%;
-  margin-left: 10%;
+body section .grid {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+  -webkit-column-gap: 50px;
+          column-gap: 50px;
+}
+
+body section .card {
+  margin-left: 4%;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: white;
+  padding-bottom: 1%;
+  height: 700px;
+}
+
+body section .card img {
+  width: 100%;
+}
+
+body section .card h2 {
+  text-align: left;
+  padding-left: 10%;
+  font-size: 1.7em;
+  width: 100%;
+  border: none;
+  color: black;
+}
+
+body section .card p {
+  text-align: left;
+  font-weight: 300;
 }
 /*# sourceMappingURL=menu.css.map */
