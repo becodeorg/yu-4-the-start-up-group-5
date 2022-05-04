@@ -1,40 +1,70 @@
 body {
   font-family: "Roboto", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
+
 body .getInContact {
-  background-color: rgb(93, 182, 190);
+  background-color: #5db6be;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   padding-top: 3vh;
   padding-bottom: 3vh;
 }
+
 body .getInContact .knowMore {
   width: 40vw;
 }
+
 body .getInContact .contactInfoBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 40vw;
 }
+
 body .getInContact .contactInfoBlock .contactInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
+
 body .getInContact .contactInfoBlock .contactInfo .icons {
-  width: 5vw;
+  width: 4vw;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   margin-right: 15px;
-  align-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
+
 body .mapContainer {
   width: 100%;
   height: 40vh;
 }
+
 body form {
   height: 500px;
   padding-top: 15%;
@@ -43,15 +73,36 @@ body form {
   margin-right: auto;
   display: block;
   font-size: 1.1em;
-  color: white;
+  color: black;
 }
+
+body form fieldset {
+  background-color: whitesmoke;
+}
+
 body form label {
+  margin-top: 2%;
   width: 100%;
   clear: both;
 }
+
 body form input {
+  margin-top: 2%;
   width: 100%;
+  height: 40px;
 }
-body form .text {
+
+body form textarea {
   width: 100%;
-}/*# sourceMappingURL=Contact.css.map */
+  height: 100px;
+}
+
+body form #button {
+  font-size: large;
+  height: 40px;
+  font-family: Roboto;
+  color: white;
+  border: none;
+  background-color: #731628;
+}
+/*# sourceMappingURL=Contact.css.map */
