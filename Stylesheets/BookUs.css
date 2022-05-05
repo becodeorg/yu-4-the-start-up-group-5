@@ -5,6 +5,10 @@ body {
 body .carousel {
   width: 100vw;
   height: 200px;
+  position: relative;
+  width: 100vw;
+  height: 300px;
+  margin-top: 15vh;
 }
 @-webkit-keyframes display {
   0% {
@@ -50,15 +54,7 @@ body .carousel {
     opacity: 0;
   }
 }
-
-.carousel {
-  position: relative;
-  width: 100vw;
-  height: 300px;
-  margin-top: 15vh;
-}
-
-.carousel > img {
+body .carousel .pic {
   position: absolute;
   top: 0;
   left: calc(50% - 100px);
@@ -66,96 +62,19 @@ body .carousel {
   -webkit-animation: display 10s infinite;
           animation: display 10s infinite;
 }
-
-img:nth-child(2) {
+body .carousel .pic .pic:nth-child(2) {
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
 }
-
-img:nth-child(3) {
+body .carousel .pic .pic:nth-child(3) {
   -webkit-animation-delay: 4s;
           animation-delay: 4s;
 }
-
-img:nth-child(4) {
+body .carousel .pic .pic:nth-child(4) {
   -webkit-animation-delay: 6s;
           animation-delay: 6s;
 }
-
-img:nth-child(5) {
+body .carousel .pic .pic:nth-child(5) {
   -webkit-animation-delay: 8s;
           animation-delay: 8s;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  padding-top: 2vh;
-}
-footer .footerTop {
-  display: flex;
-  flex-direction: row;
-  vertical-align: middle;
-  align-items: center;
-  margin-left: 20vw;
-}
-footer .footerTop .iconen {
-  display: flex;
-  flex-direction: row;
-}
-footer .footerTop .iconen a {
-  text-decoration: none;
-  color: black;
-}
-footer .footerTop .iconen a img {
-  width: 30px;
-  padding-left: 2vw;
-}
-footer .footerTop #book-us {
-  text-decoration: none;
-  color: black;
-  margin-left: 20vw;
-}
-footer .footerBottom {
-  display: flex;
-  flex-direction: row;
-  margin-left: 20vw;
-}
-footer .footerBottom a {
-  text-decoration: none;
-  color: black;
-}
-@media screen and (max-width: 800px) {
-  footer .footerTop {
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  footer .footerTop .iconen a {
-    text-decoration: none;
-    color: black;
-  }
-  footer .footerTop .iconen a img {
-    width: 30px;
-  }
-  footer #book-us {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  footer .footerBottom {
-    display: flex;
-    flex-direction: column;
-    word-break: normal;
-  }
-  footer .footerBottom p {
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  footer .footerBottom p a {
-    text-decoration: none;
-    color: black;
-  }
 }/*# sourceMappingURL=BookUs.css.map */
