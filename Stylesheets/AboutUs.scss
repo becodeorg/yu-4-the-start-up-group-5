@@ -1,6 +1,11 @@
 body{
-    .logo{
-        width: 10%;
+    header{
+        #headerpic{
+            h1{
+                background-color: rgba(218, 84, 84, 0);
+                color: white;
+            }
+        }
     }
     .whoAreWe{
         display: flex;
@@ -8,6 +13,8 @@ body{
         justify-content: center;
         background-color: rgb(243,196,180);
         .aboutTitle{
+            padding-top: 20%;
+
             display: flex;
             justify-content: center;
             margin-top: 5vh;
