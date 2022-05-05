@@ -97,6 +97,29 @@ body{
                 margin: 0 auto;
                 text-align: center;
             }
+            button{
+                background-color: rgb(218,84,85);
+                color: white;
+                font-size: 1.3em;
+                padding: 5px;
+                border:none;
+                width: 30%;
+                display: block;
+                margin-top: 5%;
+                margin-left: auto;
+                margin-right: auto;
+                font-weight: 600;
+            }
+            button a{
+                text-decoration: none;
+                color: white;
+            }
+            button:hover{
+                border: 1px solid rgb(243,196,180);
+            } 
+            button a:hover{
+                color: rgb(243,196,180);
+            }
         }
 
         @media screen and (max-width: 800px) {
@@ -145,12 +168,12 @@ body{
         }
      }
      @media screen and (max-width: 600px) {
-       header{
-           .flex{
-               nav{
-                   width: 70%;
-                   padding-top: 4%;
-               }
+        header{
+            .flex{
+                nav{
+                    width: 80%;
+                    padding-top: 4%;
+                }
                .icons{
                    margin-top: 2%;
                    width: 21%;
@@ -158,7 +181,7 @@ body{
            }
            #headerpic{
                h1{
-                   margin-top: 40%;
+                   margin-top: 50%;
                    width: 80%;
                }
            }
@@ -167,8 +190,12 @@ body{
         h2{
             padding-top: 25%;
         }
+        button{
+            width: 70%;
+        }
        }
     }
+    
 
     footer{
         display: flex;

@@ -4,53 +4,54 @@ body header #headerpic {
 body header #headerpic h1 {
   background-color: rgba(219, 214, 212, 0);
   color: white;
-  width: 90%;
+  width: 60%;
   margin-right: 3%;
-  text-align: right;
 }
 body header #headerpic img {
-  margin-left: 90%;
+  margin-left: 59%;
 }
 body header p {
   width: 40%;
-  text-align: right;
-  margin-left: 57%;
-  padding-right: 3%;
+  text-align: left;
+  margin-left: 60%;
   font-weight: 300;
   font-size: 1.3em;
-  font-weight: 500;
+  font-weight: 400;
   text-transform: uppercase;
 }
 body section {
   display: grid;
-  padding-top: 10%;
-  padding-bottom: 5%;
-  height: 800px;
+  padding-top: 0%;
+  margin: 0;
+  padding-bottom: 10%;
+  height: 900px;
 }
-body section h2 {
-  margin-top: 0;
-  margin-bottom: 4%;
-  display: inline;
-  padding: 0;
+body section h4 {
+  padding-top: 12%;
+  text-align: center;
+  font-size: 1.9em;
+  margin: 0;
   width: 100%;
   border: none;
 }
 body section .grid {
   display: inline-grid;
   grid-template-columns: auto auto auto auto;
-  -moz-column-gap: 40px;
-       column-gap: 40px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
   width: 80%;
+  height: 400px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 2%;
-  margin-top: 2%;
+  padding-top: 0%;
+  margin-top: 0%;
 }
 body section .card {
-  margin-top: 0%;
+  margin: 0%;
+  padding: 0;
   border-radius: 4px;
   background-color: white;
-  height: 500px;
+  height: 600px;
   width: 90%;
 }
 body section .card img {
@@ -80,26 +81,36 @@ body section .card .prizes p {
   margin-top: 2%;
   font-style: italic;
 }
+body section .card:hover {
+  box-shadow: 2px 2px 2px rgb(115, 22, 40);
+}
 @media screen and (max-width: 800px) {
   body section {
     height: 1500px;
     padding-top: 20%;
   }
-  body section h2 {
-    padding-top: 18%;
+  body section h4 {
+    padding-top: 25%;
+    padding-bottom: 2%;
+    margin: 0%;
   }
   body section .grid {
+    height: 1300px;
     width: 95%;
     margin-left: 2%;
     margin-right: 2%;
-    -moz-column-gap: 20px;
-         column-gap: 20px;
+    -moz-column-gap: 5px;
+         column-gap: 5px;
     grid-template-columns: auto auto;
   }
   body section .grid .card {
-    height: 650px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 750px;
+    font-size: 0.8em;
     padding-bottom: 2%;
-    margin-top: 2%;
+    margin-top: 0;
   }
 }
 @media screen and (max-width: 600px) {
@@ -109,6 +120,9 @@ body section .card .prizes p {
     text-align: center;
   }
   body header #headerpic p {
+    font-size: 1em;
+    text-align: center;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -116,13 +130,26 @@ body section .card .prizes p {
     margin-left: auto;
     margin-right: auto;
   }
-  body section h2 {
-    padding-top: 28%;
+  body section {
+    height: 1500px;
+  }
+  body section h4 {
+    padding-top: 32%;
+    padding-bottom: 2%;
+    margin: 0%;
   }
   body section .grid {
+    height: 1500px;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 9%;
     margin-left: 2%;
     margin-right: 2%;
-    -moz-column-gap: 10px;
-         column-gap: 10px;
+    -moz-column-gap: 5px;
+         column-gap: 5px;
+  }
+  body section .grid .card {
+    height: 500px;
+    margin-top: 2%;
   }
 }/*# sourceMappingURL=menu.css.map */
