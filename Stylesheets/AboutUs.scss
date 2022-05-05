@@ -15,7 +15,6 @@ body{
         padding-top: 3vh;
         padding-bottom: 3vh;
         .aboutTitle{
-            padding-top: 10%;
             display: flex;
             justify-content: center;
             margin-top: 5vh;
@@ -60,7 +59,7 @@ body{
         }
         @media screen and (max-width: 800px){
             .aboutText{
-                
+    
                 width: 50vw;
                 text-align: center;
                 margin-left: auto;
@@ -136,12 +135,6 @@ body{
                 width: 100%;
             }
         }
-        .whoAreWe{
-            .aboutTitle{
-                margin-top: 40%;
-            }
-
-        }
         }
     
 
@@ -160,10 +153,7 @@ body{
 
     }
     .whoAreWe{
-        padding-top: 0%;
-        .aboutTitle{
-            padding-top: 60%;
-        }
+        padding-top: 10%;
 
     }
     
