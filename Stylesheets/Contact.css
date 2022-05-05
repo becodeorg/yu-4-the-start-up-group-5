@@ -1,14 +1,8 @@
 body {
   font-family: "Roboto", sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 body header #headerpic {
   background-image: url(../Assets/foodtruck2.jpg);
   min-height: 600px;
@@ -17,10 +11,9 @@ body header #headerpic {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 body header #headerpic h1 {
   color: white;
-  background-color: #f3c4b4;
+  background-color: rgb(243, 196, 180);
   text-transform: uppercase;
   text-align: center;
   margin-left: auto;
@@ -32,13 +25,11 @@ body header #headerpic h1 {
   font-weight: 700;
   border-bottom: 0;
 }
-
 body section {
   background-color: white;
   height: 950px;
   padding-top: 10%;
 }
-
 body section .knowMore {
   width: 60%;
   margin-left: auto;
@@ -46,7 +37,6 @@ body section .knowMore {
   padding-bottom: 20%;
   margin-top: 0;
 }
-
 body section .knowMore h2 {
   color: black;
   border: none;
@@ -54,51 +44,37 @@ body section .knowMore h2 {
   text-align: center;
   padding-top: 1%;
 }
-
 body section .knowMore p {
   text-align: left;
   margin-left: 4%;
 }
-
 body section .knowMore img {
   display: block;
   width: 10%;
   margin-left: auto;
   margin-right: auto;
 }
-
 body section .flex {
   padding-top: 10%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 body section .mapContainer {
   margin-left: 4%;
 }
-
 body section .mapContainer iframe {
   width: 700px;
   height: 600px;
 }
-
 body section .getInContact {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-around;
   padding-bottom: 2%;
 }
-
 body section .getInContact .contactInfoBlock {
   margin-left: 15%;
   color: black;
   width: 40%;
 }
-
 body section .getInContact .contactInfoBlock h2 {
   text-align: left;
   color: black;
@@ -110,35 +86,24 @@ body section .getInContact .contactInfoBlock h2 {
   font-weight: 600;
   text-transform: uppercase;
 }
-
 body section .getInContact .contactInfoBlock .contactInfo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
-
 body section .getInContact .contactInfoBlock .contactInfo .icons {
   width: 5%;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   padding-right: 10px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 body section .getInContact .contactInfoBlock .contactInfo p {
   font-weight: 300;
   font-size: 0.8em;
   padding-bottom: 1em;
   text-align: left;
 }
-
 body section form {
   height: 500px;
   margin-left: 10%;
@@ -147,23 +112,20 @@ body section form {
   font-size: 1em;
   color: black;
 }
-
 body section form h2 {
   border-bottom: none;
   text-align: left;
   width: 50%;
-  color: #f3c4b4;
+  color: rgb(243, 196, 180);
   margin: 0;
   font-size: 1.2em;
   font-weight: 500;
   margin-bottom: 2%;
 }
-
 body section form fieldset {
   border-radius: 4px;
   border: none;
 }
-
 body section form label {
   padding-top: 4%;
   width: 100%;
@@ -171,7 +133,6 @@ body section form label {
   font-weight: 300;
   clear: both;
 }
-
 body section form input {
   border: none;
   margin-bottom: 4%;
@@ -181,7 +142,6 @@ body section form input {
   height: 40px;
   border-bottom: 1px solid;
 }
-
 body section form textarea {
   margin-top: 2%;
   border: none;
@@ -189,7 +149,6 @@ body section form textarea {
   height: 80px;
   border-bottom: 1px solid;
 }
-
 body section form #button {
   font-size: large;
   width: 20%;
@@ -199,9 +158,8 @@ body section form #button {
   border: none;
   margin-top: 2%;
   border-radius: 4px;
-  background-color: #f3c4b4;
+  background-color: rgb(243, 196, 180);
 }
-
 @media screen and (max-width: 800px) {
   body #contact .knowMore {
     height: 600px;
@@ -239,7 +197,6 @@ body section form #button {
     margin-right: auto;
   }
 }
-
 @media screen and (max-width: 600px) {
   body #question .mapContainer {
     width: 100%;
@@ -249,5 +206,4 @@ body section form #button {
   body #question form #button {
     width: 100%;
   }
-}
-/*# sourceMappingURL=Contact.css.map */
+}/*# sourceMappingURL=Contact.css.map */
