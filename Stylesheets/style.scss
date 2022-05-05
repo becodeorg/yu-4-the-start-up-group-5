@@ -114,6 +114,12 @@ body{
                 text-decoration: none;
                 color: white;
             }
+            button:hover{
+                border: 1px solid rgb(243,196,180);
+            } 
+            button a:hover{
+                color: rgb(243,196,180);
+            }
         }
 
         @media screen and (max-width: 800px) {
@@ -175,7 +181,7 @@ body{
            }
            #headerpic{
                h1{
-                   margin-top: 40%;
+                   margin-top: 50%;
                    width: 80%;
                }
            }
