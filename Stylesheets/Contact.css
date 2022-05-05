@@ -11,15 +11,18 @@ body header #headerpic {
   background-repeat: no-repeat;
   background-size: cover;
 }
-body header h1 {
-  color: rgb(243, 196, 180);
-  background-color: rgba(255, 255, 255, 0);
+body header #headerpic h1 {
+  color: white;
+  background-color: rgb(243, 196, 180);
   text-transform: uppercase;
   text-align: center;
-  margin-left: 0;
-  margin-top: 2%;
-  margin-right: 0;
-  width: 100%;
+  margin-left: auto;
+  margin-top: 6%;
+  margin-right: auto;
+  width: 30%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 700;
   border-bottom: 0;
 }
 body section {
@@ -28,8 +31,7 @@ body section {
   padding-top: 10%;
 }
 body section .knowMore {
-  width: 50%;
-  text-align: left;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 20%;
@@ -107,7 +109,7 @@ body section form {
   margin-left: 10%;
   background-color: white;
   padding-left: 5%;
-  font-size: 1.1em;
+  font-size: 1em;
   color: black;
 }
 body section form h2 {
@@ -116,7 +118,7 @@ body section form h2 {
   width: 50%;
   color: rgb(243, 196, 180);
   margin: 0;
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-weight: 500;
   margin-bottom: 2%;
 }
@@ -127,6 +129,7 @@ body section form fieldset {
 body section form label {
   padding-top: 4%;
   width: 100%;
+  font-size: 0.8em;
   font-weight: 300;
   clear: both;
 }
