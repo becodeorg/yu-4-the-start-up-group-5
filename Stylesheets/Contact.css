@@ -21,6 +21,7 @@ body header #headerpic {
 body header #headerpic h1 {
   color: white;
   background-color: #f3c4b4;
+  border-radius: 4px;
   text-transform: uppercase;
   text-align: center;
   margin-left: auto;

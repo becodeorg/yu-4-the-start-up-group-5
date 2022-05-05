@@ -2,38 +2,42 @@ body {
   margin: 0;
   font-family: Roboto, sans-serif;
   /*footer{
-      padding-top: 1%;
-      color: rgba(115, 22, 41, 0.707);
-      background-color: white;
-      ul{
-          margin-left: auto;
-          margin-right: auto;
-          width: 55%;
-          li{
-              list-style: none;
-              margin-left: 10%;
-              display: inline;
-          }
-      }
-      div{
-          margin-left: auto;
-          margin-right: auto;
-          width: 14%;
-          img{
-          width: 20%;
-          }
+            padding-top: 1%;
+            color: rgba(115, 22, 41, 0.707);
+            background-color: white;
+            ul{
+                margin-left: auto;
+                margin-right: auto;
+                width: 55%;
+                li{
+                    list-style: none;
+                    margin-left: 10%;
+                    display: inline;
+                }
+            }
+            div{
+                margin-left: auto;
+                margin-right: auto;
+                width: 14%;
+                img{
+                width: 20%;
+                }
 
-      }
-      p{
-          text-align: center;
-          color: black;
-      }
-  }*/
+            }
+            p{
+                text-align: center;
+                color: black;
+            }
+        }*/
 }
+
 body header {
   width: 100%;
 }
+
 body header .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: fixed;
   background-color: white;
@@ -41,17 +45,20 @@ body header .flex {
   padding-top: 2%;
   height: 110px;
 }
+
 body header .flex .logo {
   width: 30%;
   padding-left: 4%;
   padding-top: 2%;
   margin-right: 10%;
 }
+
 body header nav {
   width: 80%;
   margin-left: 7%;
   padding-top: 4%;
 }
+
 body header nav a {
   text-decoration: none;
   color: black;
@@ -59,20 +66,24 @@ body header nav a {
   padding: 2%;
   font-size: 1.3em;
 }
+
 body header nav a:hover {
-  background-color: rgb(218, 84, 85);
+  background-color: #da5455;
   color: white;
   border-radius: 2px;
 }
+
 body header nav .icons {
   float: right;
   width: 10%;
 }
+
 body header nav .icons img {
   width: 30%;
   padding: 0;
   margin: 0;
 }
+
 body header #headerpic {
   padding-top: 20%;
   background-image: url(../Assets/foodtruck.jpeg);
@@ -82,6 +93,7 @@ body header #headerpic {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 body header #headerpic h1 {
   color: white;
   font-weight: 600;
@@ -92,18 +104,21 @@ body header #headerpic h1 {
   margin-left: auto;
   width: 40%;
 }
+
 body header #headerpic img {
   width: 5%;
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
+
 body section, body #information {
-  background-color: rgb(243, 196, 180);
+  background-color: #f3c4b4;
   height: 600px;
   margin-top: 0;
   padding-top: 2%;
 }
+
 body section h2, body #information h2 {
   margin-top: 15%;
   color: white;
@@ -113,12 +128,14 @@ body section h2, body #information h2 {
   text-align: center;
   font-size: 2.4em;
 }
+
 body section p, body #information p {
   width: 75%;
   padding-top: 2%;
   margin: 0 auto;
   text-align: center;
 }
+
 @media screen and (max-width: 800px) {
   body header .flex {
     height: 250px;
@@ -160,6 +177,7 @@ body section p, body #information p {
     width: 100%;
   }
 }
+
 @media screen and (max-width: 600px) {
   body header .flex nav {
     width: 70%;
@@ -176,4 +194,5 @@ body section p, body #information p {
   body #information h2 {
     padding-top: 25%;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */
