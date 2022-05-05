@@ -69,8 +69,6 @@ body section .card p {
   text-align: left;
   font-weight: 300;
 }
-<<<<<<< HEAD
-
 body section .card .prizes {
   margin-top: 6%;
 }
@@ -80,8 +78,7 @@ body section .card .prizes p {
   font-style: italic;
 }
 
-=======
->>>>>>> 60d8118e7781801f1a30fddeac4e8b97c6ac63da
+
 @media screen and (max-width: 800px) {
   body section {
     height: 1500px;
