@@ -20,6 +20,9 @@ body header p {
   margin-left: 57%;
   padding-right: 3%;
   font-weight: 300;
+  font-size: 1.3em;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 body section {
@@ -61,9 +64,11 @@ body section .card {
 
 body section .card img {
   width: 100%;
+  margin-bottom: 6%;
 }
 
 body section .card h2 {
+  padding-top: 4%;
   text-align: left;
   padding-left: 10%;
   font-size: 1.4em;
@@ -73,8 +78,18 @@ body section .card h2 {
 }
 
 body section .card p {
+  margin-top: 4%;
   text-align: left;
   font-weight: 300;
+}
+
+body section .card .prizes {
+  margin-top: 6%;
+}
+
+body section .card .prizes p {
+  margin-top: 2%;
+  font-style: italic;
 }
 
 @media screen and (max-width: 800px) {
