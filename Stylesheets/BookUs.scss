@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    .carousel {
+        width: 100vw;
+        height: 200px;
+      }
+      @keyframes display {
+        0% {
+          transform: translateX(200px);
+          opacity: 0;
+        }
+        10% {
+          transform: translateX(0);
+          opacity: 1;
+        }
+        20% {
+          transform: translateX(0);
+          opacity: 1;
+        }
+        30% {
+          transform: translateX(-200px);
+          opacity: 0;
+        }
+        100% {
+          transform: translateX(-200px);
+          opacity: 0;
+        }
+      }
+  }
+  
+  
+  
+  
+  
+  .carousel {
+    position: relative;
+    width: 100vw;
+    height: 300px;
+    margin-top: 15vh;
+  }
+  
+  .carousel > img {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 100px);
+    opacity: 0;
+    animation: display 10s infinite;
+  }
+  
+  img:nth-child(2) {
+    animation-delay: 2s;
+  }
+  img:nth-child(3) {
+    animation-delay: 4s;
+  }
+  img:nth-child(4) {
+    animation-delay: 6s;
+  }
+  img:nth-child(5) {
+    animation-delay: 8s;
+  }
+
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2vh;
+    
+    .footerTop{
+        display: flex;
+        flex-direction: row;
+        vertical-align: middle;
+        align-items: center;
+        margin-left: 20vw;
+        
+        .iconen{
+            display: flex;
+            flex-direction: row;
+            a{
+                text-decoration: none;
+                color: black;
+                img{
+                    width: 30px;
+                    padding-left: 2vw;
+                }
+            }
+        }
+        #book-us{
+            text-decoration: none;
+            color: black;
+            margin-left: 20vw;
+        }
+        
+    }
+   
+    .footerBottom{
+        display: flex;
+        flex-direction: row;
+        margin-left: 20vw;
+        
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+    @media screen and (max-width: 800px){
+        .footerTop{
+            display: flex;
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+            .iconen{
+                a{
+                    text-decoration: none;
+                    color: black;
+                    img{
+                        width: 30px;  
+                    }
+                }
+            }
+        }
+            #book-us{
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .footerBottom{
+                display: flex;
+                flex-direction: column;
+                word-break: normal;
+                
+                p{
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: auto;
+                    margin-right: auto;
+                    
+                    a{
+                        text-decoration: none;
+                        color: black;
+                    }
+                    
+                 }
+            }
+                
+        
+
+    }
+}

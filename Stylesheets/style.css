@@ -1,34 +1,6 @@
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
-  /*footer{
-      padding-top: 1%;
-      color: rgba(115, 22, 41, 0.707);
-      background-color: white;
-      ul{
-          margin-left: auto;
-          margin-right: auto;
-          width: 55%;
-          li{
-              list-style: none;
-              margin-left: 10%;
-              display: inline;
-          }
-      }
-      div{
-          margin-left: auto;
-          margin-right: auto;
-          width: 14%;
-          img{
-          width: 20%;
-          }
-
-      }
-      p{
-          text-align: center;
-          color: black;
-      }
-  }*/
 }
 body header {
   width: 100%;
@@ -175,5 +147,77 @@ body section p, body #information p {
   }
   body #information h2 {
     padding-top: 25%;
+  }
+}
+body footer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2vh;
+}
+body footer .footerTop {
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+  align-items: center;
+  margin-left: 20vw;
+}
+body footer .footerTop .iconen {
+  display: flex;
+  flex-direction: row;
+}
+body footer .footerTop .iconen a {
+  text-decoration: none;
+  color: black;
+}
+body footer .footerTop .iconen a img {
+  width: 30px;
+  padding-left: 2vw;
+}
+body footer .footerTop #book-us {
+  text-decoration: none;
+  color: black;
+  margin-left: 20vw;
+}
+body footer .footerBottom {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20vw;
+}
+body footer .footerBottom a {
+  text-decoration: none;
+  color: black;
+}
+@media screen and (max-width: 800px) {
+  body footer .footerTop {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body footer .footerTop .iconen a {
+    text-decoration: none;
+    color: black;
+  }
+  body footer .footerTop .iconen a img {
+    width: 30px;
+  }
+  body footer #book-us {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body footer .footerBottom {
+    display: flex;
+    flex-direction: column;
+    word-break: normal;
+  }
+  body footer .footerBottom p {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body footer .footerBottom p a {
+    text-decoration: none;
+    color: black;
   }
 }/*# sourceMappingURL=style.css.map */
