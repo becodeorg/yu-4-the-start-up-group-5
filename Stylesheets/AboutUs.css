@@ -194,6 +194,9 @@ body .row .column img {
     vertical-align: middle;
     width: 100%;
   }
+  body .row .whoAreWe .aboutTitle {
+    margin-top: 40%;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -208,5 +211,13 @@ body .row .column img {
     vertical-align: middle;
     width: 100%;
   }
+}
+
+body .whoAreWe {
+  padding-top: 0%;
+}
+
+body .whoAreWe .aboutTitle {
+  padding-top: 60%;
 }
 /*# sourceMappingURL=AboutUs.css.map */

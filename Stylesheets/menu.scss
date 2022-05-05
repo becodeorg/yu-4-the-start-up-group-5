@@ -98,22 +98,29 @@ body{
         section{
             height: 1500px;
             padding-top: 20%;
-            h2{
-                padding-top: 18%;
-            }
+                h4{
+                    padding-top:25%;
+                    padding-bottom: 2%;
+                    margin:0%;
+                }           
             .grid{
-                height: 600px;
-
+                height: 1300px;
                 width: 95%;
                 margin-left: 2%;
                 margin-right: 2%;
-                column-gap: 20px;
+                column-gap: 5px;
                 grid-template-columns: auto auto;
             .card{
-                height: 650px;
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                height: 750px;
+                font-size: 0.8em;
                 padding-bottom: 2%;
-                margin-top: 2%;
+                margin-top: 0;
+            
             }
+
             }
         }
     }

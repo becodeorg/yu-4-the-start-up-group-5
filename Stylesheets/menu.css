@@ -107,23 +107,29 @@ body section .card:hover {
     height: 1500px;
     padding-top: 20%;
   }
-  body section h2 {
-    padding-top: 18%;
+  body section h4 {
+    padding-top: 25%;
+    padding-bottom: 2%;
+    margin: 0%;
   }
   body section .grid {
-    height: 600px;
+    height: 1300px;
     width: 95%;
     margin-left: 2%;
     margin-right: 2%;
-    -webkit-column-gap: 20px;
-            column-gap: 20px;
+    -webkit-column-gap: 5px;
+            column-gap: 5px;
     -ms-grid-columns: auto auto;
         grid-template-columns: auto auto;
   }
   body section .grid .card {
-    height: 650px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 750px;
+    font-size: 0.8em;
     padding-bottom: 2%;
-    margin-top: 2%;
+    margin-top: 0;
   }
 }
 
