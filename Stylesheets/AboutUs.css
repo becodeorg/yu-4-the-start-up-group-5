@@ -14,7 +14,7 @@ body .whoAreWe {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #f3c4b4;
+  background-color: white;
   padding-top: 3vh;
   padding-bottom: 3vh;
 }
