@@ -1,7 +1,6 @@
 body header #headerpic {
   background-image: url(../Assets/foodpic.jpeg);
 }
-
 body header #headerpic h1 {
   background-color: rgba(219, 214, 212, 0);
   color: white;
@@ -9,11 +8,9 @@ body header #headerpic h1 {
   margin-right: 3%;
   text-align: right;
 }
-
 body header #headerpic img {
   margin-left: 90%;
 }
-
 body header p {
   width: 40%;
   text-align: right;
@@ -21,15 +18,12 @@ body header p {
   padding-right: 3%;
   font-weight: 300;
 }
-
 body section {
-  display: -ms-grid;
   display: grid;
   padding-top: 10%;
   padding-bottom: 5%;
   height: 800px;
 }
-
 body section h2 {
   margin-top: 0;
   margin-bottom: 2%;
@@ -38,31 +32,25 @@ body section h2 {
   width: 100%;
   border: none;
 }
-
 body section .grid {
-  display: -ms-inline-grid;
   display: inline-grid;
-  -ms-grid-columns: auto auto auto auto;
-      grid-template-columns: auto auto auto auto;
-  -webkit-column-gap: 40px;
-          column-gap: 40px;
+  grid-template-columns: auto auto auto auto;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 2%;
 }
-
 body section .card {
   margin-top: 0%;
   background-color: white;
   height: 700px;
   width: 90%;
 }
-
 body section .card img {
   width: 100%;
 }
-
 body section .card h2 {
   text-align: left;
   padding-left: 10%;
@@ -71,12 +59,10 @@ body section .card h2 {
   border: none;
   color: black;
 }
-
 body section .card p {
   text-align: left;
   font-weight: 300;
 }
-
 @media screen and (max-width: 800px) {
   body section {
     height: 1500px;
@@ -89,10 +75,9 @@ body section .card p {
     width: 95%;
     margin-left: 2%;
     margin-right: 2%;
-    -webkit-column-gap: 20px;
-            column-gap: 20px;
-    -ms-grid-columns: auto auto;
-        grid-template-columns: auto auto;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+    grid-template-columns: auto auto;
   }
   body section .grid .card {
     height: 650px;
@@ -100,7 +85,6 @@ body section .card p {
     margin-top: 2%;
   }
 }
-
 @media screen and (max-width: 600px) {
   body header #headerpic h1 {
     color: black;
@@ -121,8 +105,7 @@ body section .card p {
   body section .grid {
     margin-left: 2%;
     margin-right: 2%;
-    -webkit-column-gap: 10px;
-            column-gap: 10px;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
   }
-}
-/*# sourceMappingURL=menu.css.map */
+}/*# sourceMappingURL=menu.css.map */
